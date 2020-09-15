@@ -99,7 +99,7 @@ window.addEventListener('DOMContentLoaded', function(){
   const categoryBtns = categories.map(function(category){
     return `<button type="button" class="filter-btn" data-id="${category}">${category}</button>`
   }).join('');
-  container.innerHTML = categoryBtns
+  container.innerHTML = categoryBtns;
   const filterBtns = document.querySelectorAll(".filter-btn");
 
   // filter items
